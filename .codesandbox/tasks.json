@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "npm install",
-      "command": "npm install"
+      "command": "cd api && npm install"
     }
   ],
 
@@ -11,7 +11,7 @@
   "tasks": {
     "whereis htop": {
       "name": "whereis htop",
-      "command": "node index.js",
+      "command": "cd api && node index.js",
       "runAtStart": true
     }
   }
