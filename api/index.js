@@ -20,7 +20,7 @@ async function init() {
     response.send("service is working");
   });
 
-  app.get("/screnshot", async (request, response) => {
+  app.get("/shot", async (request, response) => {
     console.log("get screenshot");
     const page = await browser.newPage();
     await page.goto("http://google.com");
